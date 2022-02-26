@@ -1,0 +1,25 @@
+l=[]
+p=[]
+n=[]
+num=int(input('enter the number'))
+for i in range(1,num+1):
+    x=int(input())
+    l.append(x)
+for j in range(num):
+    if(l[j]>=0):
+        p.append(l[j])
+    else:
+        n.append(l[j])
+print('positive list:',p)
+print('negative list:',n)
+
+output:
+enter the number6
+6
+5
+4
+-4
+-3
+-12
+positive list:[6,5,4]
+negative list:[-4,-3,-12]
